@@ -2,10 +2,28 @@
 //
 
 #include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+//ofstream = output file stream
+//always close object.close()
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    /*
+    * create 3 vectors, lining up the indexes for each person.
+    * check if file exists, pull file.
+    * iterate through, value assignment order is fName0 lName0 grade0
+    * //check if newlines change anything
+    */
+    ifstream gradeFile("gradesIn.txt");
+    string currentLine;//current input from file
+    //while this is true that there is more, get from att0, and assign to variable in att1
+    //while(getline(gradeFile, currentLine))
+    //so grab the line, split it, assign it, then continue to next line.
+
+    cout << "Hello World!\n";
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
