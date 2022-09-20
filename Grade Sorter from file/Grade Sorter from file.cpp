@@ -7,6 +7,13 @@
 using namespace std;
 //ofstream = output file stream
 //always close object.close()
+/*
+* make a class to hold the variables used for a student name name grade?
+* readfile function
+* multidimensional vectors?
+* break readline at spaces?
+* fkk this is gonna take a while
+*/
 
 int main()
 {
@@ -14,6 +21,7 @@ int main()
     * create 3 vectors, lining up the indexes for each person.
     * check if file exists, pull file.
     * iterate through, value assignment order is fName0 lName0 grade0
+    * buble sort the indexes?
     * //check if newlines change anything
     */
     ifstream gradeFile("gradesIn.txt");
