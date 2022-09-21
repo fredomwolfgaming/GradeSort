@@ -9,21 +9,27 @@ using namespace std;
 //always close object.close()
 /*
 * make a class to hold the variables used for a student name name grade?
-* readfile function
-* multidimensional vectors?
-* break readline at spaces?
-* fkk this is gonna take a while
+* lost in-class notes, still waiting on professor's copy for visual memory triggers.
+* 
+* while(filein(filename, lineStorageVar))//so while you can get a new line?
+* then lineStorageIn.close()
+* 
+* will need 3 arrays:
+*   firstName
+*   lastName
+*   grade
+* make a function to resort the all indexes based on grade?
+* if grade 0 is more than grade 1, make grade 1 be first. adjust all arrays to match.
+*   move smallest to begenning, then eventually it'll be sorted. use array length to find out how long.
+*   i know the code was mentioned in class, but i'll have to dig for it.
+* 
+* i've reached the end of the necessary pesudocode, next step, finding the lost code.
+* i've also reached the end of where caffine, sugar, and a lack of sleep will allow me to recall waht i was thinking when i started typing this sentence.
 */
 
 int main()
 {
-    /*
-    * create 3 vectors, lining up the indexes for each person.
-    * check if file exists, pull file.
-    * iterate through, value assignment order is fName0 lName0 grade0
-    * buble sort the indexes?
-    * //check if newlines change anything
-    */
+
     ifstream gradeFile("gradesIn.txt");
     string currentLine;//current input from file
     //while this is true that there is more, get from att0, and assign to variable in att1
@@ -33,14 +39,3 @@ int main()
     cout << "Hello World!\n";
     
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
